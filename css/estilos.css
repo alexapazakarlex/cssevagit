@@ -1,0 +1,43 @@
+header{
+  background: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+}
+header h1{
+  text-align: left;
+  color: white;
+  text-shadow: 2px 0px 0px #02010a;
+}
+header nav{
+  float:left;
+  width:40%;
+}
+.container{
+    width:100%;
+    max-width:1366px;
+    min-width:220px;
+    margin:0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center ;
+    align-items: center ;
+    align-content: stretch;
+}
+header ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.footer{
+  width:100%;
+  max-width:1366px;
+  min-width:220px;
+  background: #c6d5c5;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center ;
+  align-items: center ;
+  align-content: space-around;
+}
