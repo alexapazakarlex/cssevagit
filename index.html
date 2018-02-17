@@ -4,15 +4,16 @@
 <!--Lugar       :Puno Perú-->
 <html>
   <head>
-    <title>Comenzando por l afotografia</title>
+    <title>Comenzando por la fotografia</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width:device-width">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Righteous|Special+Elite" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
-    <div class="contenedor">
+    <div class="contenedor-flex">
       <header>
-        <h1>COMENZANDO POR LA FOTOGRAFIA</h1>
+        <h1>COMENZANDO CON LA FOTOGRAFIA</h1>
         <nav>
           <ul>
             <li><a href="index.html">INICIO</a></li>
@@ -21,27 +22,41 @@
           </ul>
         </nav>
       </header>
+      <section class="imagenes">
+          <div id="imagen_principal" class="elemento">
+              <img src="imagenes/aguila.jpg" alt="aguila">
+          </div>
+          <div id="imagen_sec_i" class="elemento">
+               <img id="paisaje" src="imagenes/paisaje.jpg" alt="Paisaje" >
+          </div>
+
+          <div id="imgen_sec_d" class="elemento">
+                 <img id="retrato" src="imagenes/retrato.jpg" alt="retrato">
+          </div>
+          <div id="Lblpaisaje" class="tituloimg"><h2><a href="paisajes.html" class="menu">Paisajes</a></h2></div>
+          <div id="Lblretrato" class="tituloimg"><h2><a href="retratos.html" class="menu">Retratos</a></h2></div>
+      </section>
       <footer class="footer">
-        <div>
+        <div id="caja1" class="Cajafooter">
           <h2>CONTACTO:</h2>
           <P>alexapaza@outlook.com</P>
           <P>Jr. Las Magnolias 221</P>
           <P>+51 051-950005550</P>
         </div>
-        <div>
+        <div id="caja2" class="Cajafooter">
           <h2>TERMINOS:</h2>
           <P>Todo trabajo de fotografia profesional</P>
         </div>
-        <div class="">
+        <div id="caja3" class="Cajafooter">
           <h2>REDES SOCIALES:</h2>
-          <img id="facebbok" class="iconored" src="imagenes/icono_Facebook.png">
+          <img id="facebook" class="icono" src="imagenes/icono_Facebook.png">
           <p>Facebook/fotografounico</p>
-          <img id="instagram" class="iconored" src="imagenes/icono_instagram.png">
+          <img id="instagram" class="icono" src="imagenes/icono_instagram.png">
           <p>Instagram/fotografounico</p>
-          <img id="twitter" class="iconored" src="imagenes/icono_twitter.png">
+          <img id="twitter" class="icono" src="imagenes/icono_twitter.png">
           <p>Twitter/fotografounico</p>
         </div>
-        <div class="">
+        <div id="caja4" class="Cajafooter">
           <P>Alexander Apaza 2018 </P>
         </div>
       </footer>
