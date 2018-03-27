@@ -33,13 +33,20 @@ header ul{
   max-width:1366px;
   min-width:220px;
   background: #c6d5c5;
+  border-radius: 0px 0px 10px 10px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center ;
   align-items: center ;
   align-content: space-around;
 }
-
+#galeria{
+  width:100%;
+  max-width:1366px;
+  min-width:220px;
+  display: flex;
+  flex-flow: row wrap;
+}
 /*fin de elementos flex*/
 
 /*sub elementos del flex*/
@@ -86,11 +93,27 @@ header{
     height:350px;
     flex: 1 auto;
     border-bottom-right-radius: 10px;
-    font-weight: bold;
+    /*font-weight: bold;*/
+}
+
+#galeria1{
+  height: auto;
+  flex: 1 auto;
+}
+#galeria2{
+  height: auto;
+  flex: 1 auto;
+}
+#galeria3{
+  height: auto;
+  flex: 1 auto;
 }
 /*fin de sub elementos del flex*/
 
 /*elementos generales*/
+body{
+  background-color: #02010a;
+}
 header h1{
   color: white;
   text-shadow: 2px 0px 0px #02010a;
@@ -137,7 +160,7 @@ div img{
   margin: auto;
   display:block;
   border: 1px solid black;
-  box-shadow: 4px 5px black;
+  box-shadow: 2px 2px 5px 0px #02010a;
   width: 80%;
 }
 p{
@@ -148,6 +171,14 @@ h2{
     font-family: 'Righteous', cursive;
     text-align: center;
 }
+.tituloimg{
+    width: 50%;
+    text-align: center;
+    background: #d5c75f;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.5em;
+    text-decoration:underline;
+}
 /*fin de elementos generales*/
 
 
@@ -157,19 +188,22 @@ h2{
 }
 #paisaje:hover{
   border: 2px solid black;
-  box-shadow: 6px 0px 0px #82c3a6;
+  box-shadow: 2px 0px 0px #82c3a6;
   transform: rotate(10deg);
 }
 #retrato{
   transition: all .6s;
 }
 #retrato:hover{
-  transform: translate(20px);
+  transform: translate(20px,-5px);
   border: 2px solid black;
-  box-shadow: 6px 0px 0px #82c3a6;
+  box-shadow: 2px 2px 2px #82c3a6;
 }
 li:hover{
     border: 1px solid;
+}
+.img_gris{
+  filter: grayscale(100%);
 }
 /*fin de animaciones de imagenes*/
 
@@ -191,7 +225,7 @@ header {
 }
 /*fin de animacion de entrada*/
 /* Cambios responsive*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .galeria{
       width: 100%
     }
